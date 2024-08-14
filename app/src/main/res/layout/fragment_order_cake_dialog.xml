@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/backgroundColor">
+
+    <EditText
+        android:id="@+id/customer_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/customer_name" />
+
+    <EditText
+        android:id="@+id/phone_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/phone_number"
+        android:inputType="phone" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose Cake Size:"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/radio_group_size"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/radio_size_6in"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6in Cake (Serves 6-10)" />
+
+        <RadioButton
+            android:id="@+id/radio_size_8in"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8in Cake (Serves 10-15)" />
+
+        <RadioButton
+            android:id="@+id/radio_size_9in"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9in Cake (Serves 15-20)" />
+
+        <RadioButton
+            android:id="@+id/radio_size_10in"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10in Cake (Serves 20-35)" />
+
+        <RadioButton
+            android:id="@+id/radio_size_12in"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12in Cake (Serves 35-50)" />
+    </RadioGroup>
+
+
+    <Spinner
+        android:id="@+id/cake_flavor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:prompt="@string/cake_flavor_prompt" />
+
+    <EditText
+        android:id="@+id/message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/message_optional"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/save_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/save_order"
+        android:layout_marginTop="16dp" />
+</LinearLayout>

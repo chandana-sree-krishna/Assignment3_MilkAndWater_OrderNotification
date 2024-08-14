@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.CupcakeOrderManager" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryVariant">@color/primaryColor</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/primaryColor</item>
+        <item name="colorSecondaryVariant">@color/primaryColor</item>
+        <item name="colorOnSecondary">@android:color/white</item>
+        <!-- Background color. -->
+        <item name="android:windowBackground">@color/backgroundColor</item>
+
+        <item name="fontFamily">@font/poppins_med</item>
+
+    </style>
+
+    <style name="Theme.CupcakeOrderManager" parent="Base.Theme.CupcakeOrderManager" />
+</resources>

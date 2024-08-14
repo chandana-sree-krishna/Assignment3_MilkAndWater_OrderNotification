@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Milk and Water</string>
+    <string name="view_orders">View Orders</string>
+    <string name="add_order">Add Order</string>
+    <string name="order_list">Order List</string>
+    <string name="customer_name">Customer Name</string>
+    <string name="cupcake_flavor">Cupcake Flavor</string>
+    <string name="order_type">Order Type</string>
+    <string name="menu_message">Each day we make 6-12 different flavours of cupcakes for orders. Selection dwindles as the day goes on and sometimes these sell out. You can pre-order a daily assortment any time up to the day before and you will receive a mix of about 6 flavours of the day!</string>
+    <string name="custom_message">No orders yet. Add new orders.</string>
+    <string name="cake_size_prompt">Select Cake Size</string>
+    <string name="cake_flavor_prompt">Select Cake Flavor</string>
+    <string name="cupcake_flavor_prompt">Select Cupcake Flavor</string>
+    <string name="save_order">Save Order</string>
+    <string name="message_optional">Message (optional)</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="quantity_number_of_cupcakes">Quantity (number of cupcakes)</string>
+    <string-array name="cake_sizes">
+        <item>6"</item>
+        <item>8"</item>
+        <item>9"</item>
+        <item>10"</item>
+        <item>12"</item>
+    </string-array>
+
+    <string-array name="cake_flavors">
+        <item>Vanilla</item>
+        <item>Chocolate</item>
+        <item>Red Velvet</item>
+        <item>Lemon</item>
+        <item>Carrot</item>
+    </string-array>
+
+    <string-array name="cupcake_flavors">
+        <item>Vanilla</item>
+        <item>Chocolate</item>
+        <item>Red Velvet</item>
+        <item>Lemon</item>
+        <item>Carrot</item>
+    </string-array>
+</resources>
